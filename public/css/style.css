@@ -1,0 +1,56 @@
+* {
+  color: white;
+  font-family: raleway;
+}
+
+.content {
+  background-color: #2d46b9;
+}
+hr {
+  background-color: black;
+}
+.content1 {
+  padding: 2%;
+}
+
+.content2 {
+  padding: 2%;
+}
+.color1 {
+  background-color: #182d9a;
+}
+
+.color2 {
+  background-color: #dde2ff;
+  color: black;
+}
+
+.color {
+  background-color: #dde2ff;
+  color: black;
+}
+.card {
+  background-color: #39a2db;
+  padding: 4%;
+  border-radius: 11px;
+}
+.botslog {
+  font-size: 8rem;
+  line-height: 1.25;
+  position: relative;
+  border-radius: 10px;
+}
+
+.img23 {
+  border-radius: 11px;
+}
+.color3 {
+  background-color: #bb780f;
+}
+.btn {
+  background-color: #3d087b;
+}
+
+.btn:hover {
+  background-color: #11052c;
+}

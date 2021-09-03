@@ -1,0 +1,118 @@
+<div class="content">
+  <div class="text-center content1">
+    <h1>Bot List Sonica</h1>
+    <p>Una bot list de discord que tiene como diseño los colores y diseño de
+      sonic
+    </p>
+
+    {{#if user}}
+
+      <a href="/register" class="btn btn-success">Registar bot</a>
+      <a href="#" class="btn btn-success">Server support</a>
+    {{else}}
+      <a href="login" class="btn btn-success">Login</a>
+      <a href="#" class="btn btn-success">Server support</a>
+    {{/if}}
+  </div>
+  <hr style="padding: 5px" />
+  <div class="text-center content1">
+    <div>
+      <h2 class="">Busca un bot!</h2>
+    </div>
+  </div>
+  <hr style="padding: 5px" />
+  <div class="text-center content1" style="color: black ">
+    <div>
+      <h2 class="">Bots registrados</h2>
+    </div>
+    <div>
+      <div class="text-center row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          {{#each bots}}
+            <div class="card text-center">
+              <div class="text-center row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <img
+                    style="width: 70%;"
+                    class="img23"
+                    src="{{this.avar}}"
+                    alt="..."
+                  />
+                </div>
+                <div class="col">
+                  <h3>{{this.name}}</h3>
+                  <p>{{this.desc1}}</p>
+
+                  <div class="text-center row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <a href="#" class="btn btn-success">Ver</a>
+                    </div>
+                    <div class="col">
+                      <a
+                        href="{{this.invit}}"
+                        class="btn btn-success"
+                      >Invitar</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          {{/each}}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center" style="background-color: #1E3163">
+    <div>
+      <h2 class="">Colaboradores: </h2>
+
+      <div class="text-center row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div>
+
+            <div class="text-center row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <img
+                  style="width: 70%;"
+                  class="img23"
+                  src="https://cdn.discordapp.com/avatars/332223388833677322/dcc2bea1ec0f3e8cab3a943fa4c4f182.webp?size=4096"
+                  alt=""
+                />
+              </div>
+
+              <div class="col" style="padding-top: 10%">
+                <h3>Kawui#0008</h3>
+
+                <p>Desarolladora</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="text-center row row-cols-1 row-cols-md-2 g-4">
+
+          <div class="col" style="padding-top: 10%">
+            <h3>Ibray#9968</h3>
+
+            <p>Owner</p>
+          </div>
+
+          <div class="col">
+            <img
+              style="width: 70%;"
+              class="img23"
+              src="https://cdn.discordapp.com/avatars/855237840828629052/ded88dea5dbef6931bcfbf4a984733c7.webp?size=4096"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
